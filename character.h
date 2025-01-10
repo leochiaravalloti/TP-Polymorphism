@@ -1,4 +1,8 @@
+#ifndef CHARACTER_H_
+#define CHARACTER_H_
+
 #include <iostream>
+#include <string>
 
 // Character class. Father class, Mario and Yoshi will inheret Character class caracteristics.
 
@@ -26,4 +30,4 @@ class Character {
         static float max_speed;
 };
 
-//#endif
+#endif
