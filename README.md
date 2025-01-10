@@ -1,7 +1,6 @@
 # TP-Polymorphism
 ## Object Oriented Programing Course, 4BIM INSA Lyon
-Challenge:
-Polymorphism: hands-on
+Challenge Polymorphism: hands-on
 ======================
 
 ### 1) Implement a class ``Character`` containing the following:

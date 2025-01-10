@@ -15,7 +15,7 @@ class Character {
         ~Character();
 
         //Methods or member functions
-        void Accelerate();
+        virtual void Accelerate();
         void Break();
 
         inline auto Speed() const {
