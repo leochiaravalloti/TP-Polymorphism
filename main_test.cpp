@@ -33,6 +33,7 @@ int main(){
     
     // 3. Test for Yoshi and Mario Classes 
     Yoshi Pilot_Y;
+    Pilot_Y.in_crest(); // 6. Test for Crest
     std::cout << "Courrent pilot is: " << Pilot_Y.WhatAmI() << std::endl;
     std::cout << "Yoshi Speed is: " << Pilot_Y.Speed() << std::endl;
     std::cout << "Acceleration." << std::endl ;
@@ -44,10 +45,8 @@ int main(){
     Mario Pilot_M;
     std::cout << "Courrent pilot is: " << Pilot_M.WhatAmI() << std::endl;
     std::cout << "Mario Speed is: " << Pilot_M.Speed() << std::endl;
-    std::cout << "Acceleration x10." << std::endl ;
-    for( int i = 0; i <= 10 ; i++){
-        Pilot_M.Accelerate();
-    };
+    std::cout << "Acceleration!" << std::endl ;
+    Pilot_M.Accelerate();
     std::cout << "Courrent speed: " << Pilot_M.Speed() << std::endl;
 
     // 5. Test for Yoshi Acceleration() override 
@@ -59,6 +58,8 @@ int main(){
 void grandPrix(){
     Mario Runner1;
     Yoshi Runner2;
+    
+    Runner2.in_crest(); 
 
     std::cout << ">>>>>>>>>>>>><<<<<<<<<<<<<<" << std::endl;
     std::cout << ">>GRAND PRIX STARTING IN<<<" << std::endl;

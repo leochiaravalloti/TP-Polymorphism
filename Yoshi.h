@@ -11,4 +11,9 @@ class Yoshi : public Character {
 
         //Acceleration override
         void Accelerate() override;
+
+        //Crest number
+        void in_crest();
+    private:
+        int crest_n = 1;
 };

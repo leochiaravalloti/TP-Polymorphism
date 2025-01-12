@@ -8,7 +8,7 @@ Character::Character(){
 //Destructor
 Character::~Character() = default;
 //Accelerate() method
-Character::Accelerate(){
+void Character::Accelerate(){
     if( speed_ < max_speed){
         speed_ = speed_ + 1;
         std::cout << "Successful Acceleration: The speed has been increased to "
